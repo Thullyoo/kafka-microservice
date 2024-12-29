@@ -1,4 +1,4 @@
-package model;
+package br.thullyoo.user_producer_kafka.model;
 
 public class User {
 
