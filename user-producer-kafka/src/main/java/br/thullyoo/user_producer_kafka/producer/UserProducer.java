@@ -14,6 +14,6 @@ public class UserProducer {
     }
 
     public void sendUserRegisteredNotification(UserProducerDTO userProducerDTO){
-        kafkaTemplate.send("email-microservice", 1, null, userProducerDTO);
+        kafkaTemplate.send("email-microservice", userProducerDTO);
     }
 }
